@@ -31,17 +31,24 @@ def getting_value() -> tuple:
     from users.
     In End, function return (base, height) values as tuple
     '''
-    
-    try:
-        base = float(input("Enter B (base) of parallelogram value: "))
-        height = float(input("Enter H (height) of the parallelogram value: "))
-    except ValueError:
-        print("you must enter the True numerical value.")
-    except Exception as e:
-        print(f"You got this Error:\n{e}")
-        
-    return (base, height)
-        
+    while True:
+        try:
+            base = float(input("Enter the B (base) of parallelogram: "))
+            height = float(input("Enter the H (height) of parallelogram: "))
+            
+            if base < 1:
+                print('The value of B (b) must be positive!')
+                continue
+            if height < 1:
+                print('The value of H (height) must be positive!')
+                continue
+            return (base, height)
+        except ValueError:
+            print("Please enter valid value!")            
+        except Exception as e:
+            print(f'you got Error : \n{e}\n')
+            
+                
 def calculate_area(base: float, height: float) -> float:
     '''
     Docstring for calculate_are
