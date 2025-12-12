@@ -10,3 +10,17 @@ And show the sample of parallelogram with ASCII foramt in terminal.
 |:-:|
 | Output ScreenShot |
 
+
+
+
+## [2.Cylinder Calculator]()
+
+This program calculates the *volume* and *surface area* of a cylinder based on user-provided radius and height. It validates the input values, displays an ASCII representation of the cylinder, and prints the final results.
+The project serves as a basic Python practice exercise covering topics such as classes, user input handling, error checking, and simple geometric calculations.
+
+
+|![](/pictures/1_2_volume_and_area_cylinder.png)|
+|:-:|
+| Output ScreenShot |
+
+
