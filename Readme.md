@@ -11,7 +11,7 @@ It serves as a beginner-friendly Python practice project covering topics such as
 | Output ScreenShot |
 
 
-
+---
 
 ## [2.Cylinder Calculator](https://github.com/AziziMR98/python-practice/blob/main/Season1_input_output/2.Volume_and_area_of_%E2%80%8B%E2%80%8Ba_cylinder.py)
 
@@ -23,4 +23,4 @@ The project serves as a basic Python practice exercise covering topics such as c
 |:-:|
 | Output ScreenShot |
 
-
+---
