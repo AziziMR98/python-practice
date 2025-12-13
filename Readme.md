@@ -25,7 +25,7 @@ The project serves as a basic Python practice exercise covering topics such as c
 
 ---
 
-## [3.Sphere Surface Calculator]()
+## [3.Sphere Surface Calculator](https://github.com/AziziMR98/python-practice/blob/main/Season1_input_output/3.Surface_Area_Volume.py)
 
 This program calculates the surface area and volume of a sphere based on a user-provided radius. It validates the input value, displays a simple ASCII illustration of the sphere, and outputs the calculated results.
 
